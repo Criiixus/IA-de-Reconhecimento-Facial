@@ -19,7 +19,7 @@ O sistema abre sua webcam e identifica rostos, destacando-os com um retângulo.
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/Criiixus/IA-de-Reconhecimento-Facial
 cd seu-repositorio
 
 2. Instale os pacotes necessários
