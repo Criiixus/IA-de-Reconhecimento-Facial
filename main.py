@@ -5,7 +5,8 @@ mp_face_detection = mp.solutions.face_detection
 mp_drawing = mp.solutions.drawing_utils
 
 # Usa a câmera do dispositivo (DroidCam costuma ser o índice 1 ou 2, teste se for o caso)
-cap = cv2.VideoCapture("http://192.168.0.156:4747/video")
+cap = cv2.VideoCapture("") #coloque seu IP Aqui. Ex: cap = cv2.VideoCapture('http://192.168.0.xx:4747/video')
+
 
 
 with mp_face_detection.FaceDetection(model_selection=0, min_detection_confidence=0.5) as face_detection:
